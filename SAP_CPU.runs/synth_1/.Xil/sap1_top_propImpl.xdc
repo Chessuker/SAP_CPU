@@ -1,0 +1,5 @@
+set_property SRC_FILE_INFO {cfile:D:/OpalFolder/KMUTT/2-2/CPE223/SAP_CPU/SAP_CPU.srcs/constrs_1/new/constraint.xdc rfile:../../../SAP_CPU.srcs/constrs_1/new/constraint.xdc id:1} [current_design]
+set_property src_info {type:XDC file:1 line:4 export:INPUT save:INPUT read:READ} [current_design]
+set_switching_activity -toggle_rate 20.000 -static_probability 0.500 [get_ports {{a[*]} {b[*]} {alu_op[*]}}]
+set_property src_info {type:XDC file:1 line:5 export:INPUT save:INPUT read:READ} [current_design]
+set_switching_activity -toggle_rate 100.000 -static_probability 0.500 [get_ports {{a[*]} {b[*]} {alu_op[*]}}]

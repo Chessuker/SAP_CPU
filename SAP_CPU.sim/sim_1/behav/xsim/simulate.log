@@ -1,0 +1,46 @@
+Time resolution is 1 ps
+
+==================================================
+          BOOTING UP SAP-1 PIPELINED CPU          
+==================================================
+
+[Time: 15000] PC: 0 | IR: 00 | State: 0 | A:   0 | B:   0 | OUT:   0
+[Time: 25000] PC: 0 | IR: 00 | State: 1 | A:   0 | B:   0 | OUT:   0
+[Time: 35000] PC: 1 | IR: 0e | State: 2 | A:   0 | B:   0 | OUT:   0
+[Time: 45000] PC: 1 | IR: 0e | State: 3 | A:   0 | B:   0 | OUT:   0
+[Time: 55000] PC: 1 | IR: 0e | State: 0 | A:  30 | B:   0 | OUT:   0
+[Time: 65000] PC: 1 | IR: 0e | State: 1 | A:  30 | B:   0 | OUT:   0
+[Time: 75000] PC: 2 | IR: 2d | State: 2 | A:  30 | B:   0 | OUT:   0
+[Time: 85000] PC: 2 | IR: 2d | State: 3 | A:  30 | B:   0 | OUT:   0
+[Time: 95000] PC: 2 | IR: 2d | State: 4 | A:  30 | B:  20 | OUT:   0
+[Time: 105000] PC: 2 | IR: 2d | State: 0 | A:  10 | B:  20 | OUT:   0
+[Time: 115000] PC: 2 | IR: 2d | State: 1 | A:  10 | B:  20 | OUT:   0
+[Time: 125000] PC: 3 | IR: 3c | State: 2 | A:  10 | B:  20 | OUT:   0
+[Time: 135000] PC: 3 | IR: 3c | State: 3 | A:  10 | B:  20 | OUT:   0
+[Time: 145000] PC: 3 | IR: 3c | State: 4 | A:  10 | B:  15 | OUT:   0
+[Time: 155000] PC: 3 | IR: 3c | State: 0 | A: 150 | B:  15 | OUT:   0
+[Time: 165000] PC: 3 | IR: 3c | State: 1 | A: 150 | B:  15 | OUT:   0
+[Time: 175000] PC: 4 | IR: 4d | State: 2 | A: 150 | B:  15 | OUT:   0
+[Time: 185000] PC: 4 | IR: 4d | State: 3 | A: 150 | B:  15 | OUT:   0
+[Time: 195000] PC: 4 | IR: 4d | State: 4 | A: 150 | B:  20 | OUT:   0
+[Time: 205000] PC: 4 | IR: 4d | State: 5 | A: 150 | B:  20 | OUT:   0
+[Time: 215000] PC: 4 | IR: 4d | State: 0 | A:   7 | B:  20 | OUT:   0
+[Time: 225000] PC: 4 | IR: 4d | State: 1 | A:   7 | B:  20 | OUT:   0
+[Time: 235000] PC: 5 | IR: 3f | State: 2 | A:   7 | B:  20 | OUT:   0
+[Time: 245000] PC: 5 | IR: 3f | State: 3 | A:   7 | B:  20 | OUT:   0
+[Time: 255000] PC: 5 | IR: 3f | State: 4 | A:   7 | B:   2 | OUT:   0
+[Time: 265000] PC: 5 | IR: 3f | State: 0 | A:  14 | B:   2 | OUT:   0
+[Time: 275000] PC: 5 | IR: 3f | State: 1 | A:  14 | B:   2 | OUT:   0
+[Time: 285000] PC: 6 | IR: e0 | State: 2 | A:  14 | B:   2 | OUT:   0
+[Time: 295000] PC: 6 | IR: e0 | State: 4 | A:  14 | B:   2 | OUT:   0
+[Time: 305000] PC: 6 | IR: e0 | State: 0 | A:  14 | B:   2 | OUT:  14
+[Time: 315000] PC: 6 | IR: e0 | State: 1 | A:  14 | B:   2 | OUT:  14
+[Time: 325000] PC: 7 | IR: f0 | State: 2 | A:  14 | B:   2 | OUT:  14
+
+==================================================
+              EXECUTION COMPLETED                 
+--------------------------------------------------
+ Actual out_port  : 14
+==================================================
+
+$finish called at time : 335 ns : File "D:/OpalFolder/KMUTT/2-2/CPE223/SAP_CPU/SAP_CPU.srcs/sources_1/new/tb_sap_cpu.v" Line 62
