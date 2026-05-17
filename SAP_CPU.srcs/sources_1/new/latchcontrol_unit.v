@@ -122,7 +122,7 @@ module latchcontrol_unit(
                 end else if (ir_opcode == OP_MUL) begin
                     eu = 1; la = 1; alu_op = 3'b010;
                 end else if (ir_opcode == OP_DIV) begin
-                    alu_op = 3'b011; // ⏳ DIV Pipelined
+                    alu_op = 3'b011; // DIV Pipelined
                 end else if (ir_opcode == OP_AND) begin
                     eu = 1; la = 1; alu_op = 3'b100;
                 end else if (ir_opcode == OP_OR) begin
