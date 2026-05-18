@@ -33,7 +33,7 @@ module divider_8bit (
     generate
         for (i = 0; i < 256; i = i + 1) begin : gen_rom
             if (i == 0 || i == 1) assign reciprocal_rom[i] = 16'd0; 
-            else                  assign reciprocal_rom[i] = (17'd65536 + i - 1) / i;
+            else                  assign reciprocal_rom[i] = (17'd65536 + i - 1) / i; //this / is just for create ROM table, no use of readymade DIV module
         end
     endgenerate
 
